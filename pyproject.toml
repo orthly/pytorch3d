@@ -3,7 +3,7 @@ name = "pytorch3d"
 authors = [{ name = "FAIR" }]
 dependencies = ["iopath", "fvcore"]
 description = "PyTorch3D is FAIR's library of reusable components for deep Learning with 3D data."
-dynamic = ["version"]
+dynamic = ["version", "scripts"]
 requires-python = ">=3.8,<3.11"
 
 [project.optional-dependencies]
