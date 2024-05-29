@@ -112,6 +112,8 @@ def get_extensions():
         extra_compile_args["nvcc"] = nvcc_args
 
     sources = [os.path.join(extensions_dir, s) for s in sources]
+    # remove this_dir from sources
+    sources = [s.replace(this_dir + os.path.sep, "") for s in sources]
 
     ext_modules = [
         extension(
