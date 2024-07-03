@@ -4,7 +4,7 @@ authors = [{ name = "FAIR" }]
 dependencies = ["iopath", "fvcore"]
 description = "PyTorch3D is FAIR's library of reusable components for deep Learning with 3D data."
 dynamic = ["version", "scripts"]
-requires-python = ">=3.8,<3.11"
+requires-python = ">=3.8,<3.11.10"
 
 [project.optional-dependencies]
 all = ["imageio", "ipywidgets", "matplotlib", "tqdm>4.29.0"]
